@@ -17,7 +17,7 @@ spec:
         - name: dockerhub-secret
       containers:
         - name: frontend
-          image: hyun9409194091/horse-racing-frontend:v1
+          image: hyun9409194091/horse-racing-frontend:sha-e4836a7
           imagePullPolicy: Always
           ports:
             - containerPort: 3000
