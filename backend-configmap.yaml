@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: backend-config
+  namespace: horse-racing
+data:
+  QCC_API_URL: "https://qcc-backend.com"
+  QCC_EXPLORER_URL: "https://explorer.quantumchain.it"
+  # Set this to your real deposit wallet address.
+  QCC_DEPOSIT_WALLET: ""
+  # If empty, backend will derive fromAddress from private key.
+  QCC_WITHDRAW_FROM_ADDRESS: ""
