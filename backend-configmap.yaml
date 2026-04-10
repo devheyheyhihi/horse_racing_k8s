@@ -7,6 +7,6 @@ data:
   QCC_API_URL: "https://qcc-backend.com"
   QCC_EXPLORER_URL: "https://explorer.quantumchain.it"
   # Set this to your real deposit wallet address.
-  QCC_DEPOSIT_WALLET: ""
+  QCC_DEPOSIT_WALLET: "54991e2fa882b00cfca847728acef4a13999d8558908"
   # If empty, backend will derive fromAddress from private key.
-  QCC_WITHDRAW_FROM_ADDRESS: ""
+  QCC_WITHDRAW_FROM_ADDRESS: "54991e2fa882b00cfca847728acef4a13999d8558908"
