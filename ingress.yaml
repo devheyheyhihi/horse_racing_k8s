@@ -5,7 +5,8 @@ metadata:
   namespace: horse-racing
 spec:
   rules:
-    - http:
+    - host: race.tetherluck.com
+      http:
         paths:
           - path: /api
             pathType: Prefix
