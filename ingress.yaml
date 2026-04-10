@@ -3,7 +3,13 @@ kind: Ingress
 metadata:
   name: horse-racing
   namespace: horse-racing
+  annotations:
+    cert-manager.io/cluster-issuer: letsencrypt-prod
 spec:
+  tls:
+    - hosts:
+        - race.tetherluck.com
+      secretName: horse-racing-tls
   rules:
     - host: race.tetherluck.com
       http:
